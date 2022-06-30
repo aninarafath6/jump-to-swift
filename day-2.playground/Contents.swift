@@ -18,3 +18,19 @@ status.toggle()
 
 print(status)
 print("\(number) is \(c) a multiple of 3")
+
+
+// string interpolation
+// old swift method by using +
+var firstPart = "hello, "
+let secondPart:String = "world"
+let greeting:String = firstPart + secondPart
+
+print(greeting)
+
+
+let name:String = "anin arafath"
+let age:Int = 18
+
+// prefferd method to interoplate strings
+let discrioptiopn :String = "Hi , I'm \(name) and iam \(age) year old boy"
