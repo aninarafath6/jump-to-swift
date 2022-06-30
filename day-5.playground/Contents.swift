@@ -48,3 +48,34 @@ if trasport == .airPlane || trasport == .helicopter {
 }else {
     print("I’m going to hire a scooter now!")
 }
+
+
+
+var dish = 33334
+
+switch dish {
+case 1:
+    print("dish 1 ")
+    fallthrough
+case 2 :
+    print("dish 2")
+    fallthrough
+case 3:
+    print("dish 3")
+    fallthrough
+default:
+    print("this is defualt dish")
+}
+
+enum Theme {
+    case dark
+    case light
+    case system
+}
+
+
+// ternory operator
+var theme:Theme = Theme.dark
+var backround = theme == .dark ? "black" : "white"
+print(backround)
+
