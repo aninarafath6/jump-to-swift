@@ -74,3 +74,24 @@ heights["Sulthan "] =  23
 
 
 print(heights)
+
+
+
+// Enumuratoins
+enum WeekDays{
+    case Monday
+    case Thusday
+    case Friday
+}
+var day = WeekDays.Friday
+
+day = .Monday
+day = .Thusday
+day = WeekDays.Friday
+
+if (day == WeekDays.Thusday){
+    print("this is thusday")
+}else
+{
+    print("this is not thusday")
+}
