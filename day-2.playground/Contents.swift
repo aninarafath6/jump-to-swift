@@ -39,3 +39,11 @@ print(discrioptiopn)
 
 // calculations inside string
 print("5 x 5 is \(5*5)")
+
+
+// check piont 1
+// temprature in celcius
+let tempratureInC:Double = 30
+let tempratureInF:Double = ((tempratureInC*9)/5) + 32
+
+print("The \(tempratureInC)°C clecieus is \(tempratureInF)°F  in farenheat")
