@@ -39,11 +39,11 @@ enum TranspOption {
 
 var trasport:TranspOption = TranspOption.scooter
 
-if trasport == TranspOption.airPlane || trasport == TranspOption.helicopter {
+if trasport == .airPlane || trasport == .helicopter {
     print("Let's fly")
-}else if trasport == TranspOption.byCycle {
+}else if trasport == .byCycle {
     print("I hope there’s a bike path…")
-}else if trasport == TranspOption.car {
+}else if trasport == .car {
     print("Time to get stuck in traffic")
 }else {
     print("I’m going to hire a scooter now!")
