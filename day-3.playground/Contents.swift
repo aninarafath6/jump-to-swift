@@ -47,3 +47,30 @@ print(ages)
 // REVERSE an array
 var locations:Array<String> = ["alappuzya","Calicut","ooty"].reversed()
 print(locations)
+
+
+
+// Dictionary
+let user:Dictionary<String,Any> = [
+    "name":"Anin Arafath",
+    "age":20,
+    "location":"Chemmad",
+    ]
+
+// handle optional value
+print(user["name"] ?? "unknow")
+print(user["adk",default: "Unknown"])
+
+
+let olymcs = [
+    2022 :["anin","arafath"],
+    20222 :["anin"]
+]
+
+
+var heights = [String:Int]()
+heights["anin"] = 22
+heights["Sulthan "] =  23
+
+
+print(heights)
