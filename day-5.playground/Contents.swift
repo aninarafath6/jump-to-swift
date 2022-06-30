@@ -25,4 +25,26 @@ var big = Sizes.large
 var notBig = Sizes.small
 
 
-print(big<notBig)
+//print(big<notBig)
+
+
+
+enum TranspOption {
+    case airPlane
+    case byCycle
+    case car
+    case scooter
+    case helicopter
+}
+
+var trasport:TranspOption = TranspOption.scooter
+
+if trasport == TranspOption.airPlane || trasport == TranspOption.helicopter {
+    print("Let's fly")
+}else if trasport == TranspOption.byCycle {
+    print("I hope there’s a bike path…")
+}else if trasport == TranspOption.car {
+    print("Time to get stuck in traffic")
+}else {
+    print("I’m going to hire a scooter now!")
+}
