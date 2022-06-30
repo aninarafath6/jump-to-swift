@@ -34,3 +34,8 @@ let age:Int = 18
 
 // prefferd method to interoplate strings
 let discrioptiopn :String = "Hi , I'm \(name) and iam \(age) year old boy"
+
+print(discrioptiopn)
+
+// calculations inside string
+print("5 x 5 is \(5*5)")
