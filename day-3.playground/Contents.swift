@@ -28,3 +28,22 @@ print(actors)
 actors.removeLast()
 actors.removeFirst()
 actors.removeAll()
+
+
+
+// FIND elements from an array
+let names:Array<String> = ["anin","sulthan","habeeb"]
+print(names.contains("anin"))
+// SORT an array
+var destination:Array<String> = ["Mini ooty","kodaykanal","zeebra hut","kolappuram","Chemmad"]
+// it will be alphebetically sort because this is a string array
+print(destination.sorted())
+print(destination)
+ 
+// expample for numarical sorting
+let ages:Array< Int> = [10,20 ,33,1 ,3, 9]
+print(ages.sorted())
+print(ages)
+// REVERSE an array
+var locations:Array<String> = ["alappuzya","Calicut","ooty"].reversed()
+print(locations)
