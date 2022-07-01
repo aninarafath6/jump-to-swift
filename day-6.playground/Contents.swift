@@ -109,12 +109,27 @@ import Cocoa
 
 
 // pyramid using for loop
-for i in 1...5
-{
-    for j in 1...i
-    {
-        print("*",terminator: " ")
+//for i in 1...5
+//{
+//    for j in 1...i
+//    {
+//        print("*",terminator: " ")
+//    }
+//    print("\n")
+//}
+
+
+var number:Int = 101
+let num = number
+var reversed:Int = 0
+var riminder:Int
+
+
+while number != 0 {
+    riminder = number%10
+    reversed = (reversed * 10) + riminder
+    number /= 10
     }
-    print("\n")
-}
+
+print(num == reversed ? "\(num) is a palindrome" : "\(num) is not a palindrome")
 
