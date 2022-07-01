@@ -119,17 +119,31 @@ import Cocoa
 //}
 
 
-var number:Int = 101
-let num = number
-var reversed:Int = 0
-var riminder:Int
+//var number:Int = 101
+//let num = number
+//var reversed:Int = 0
+//var riminder:Int
+//
+//
+//while number != 0 {
+//    riminder = number%10
+//    reversed = (reversed * 10) + riminder
+//    number /= 10
+//    }
+//
+//print(num == reversed ? "\(num) is a palindrome" : "\(num) is not a palindrome")
+//
 
 
-while number != 0 {
-    riminder = number%10
-    reversed = (reversed * 10) + riminder
-    number /= 10
+// check point 3
+for i in 1...100 {
+    if i.isMultiple(of: 5) && i.isMultiple(of: 3){
+        print("FizzBuzz")
+    } else if i.isMultiple(of: 3) {
+        print("Fizz")
+    } else if i.isMultiple(of: 5){
+        print("Buzz")
+    }else {
+        print(i)
     }
-
-print(num == reversed ? "\(num) is a palindrome" : "\(num) is not a palindrome")
-
+}
