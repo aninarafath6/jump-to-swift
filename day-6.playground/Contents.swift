@@ -77,30 +77,44 @@ import Cocoa
 //
 
 // example for continue statment
-var fileNames = ["sample.jpg","input.txt","day.jpg"]
+//var fileNames = ["sample.jpg","input.txt","day.jpg"]
+//
+//for file in fileNames {
+//    if !file.hasSuffix(".jpg"){
+//        continue
+//    }
+//    print(file)
+//}
 
-for file in fileNames {
-    if !file.hasSuffix(".jpg"){
-        continue
-    }
-    print(file)
-}
+
+//// example for break
+//let number1:Int = 4
+//let number2:Int = 14
+//
+//var commonMulti = [Int]()
+//
+//for num in 1...100_000
+//{
+//    if num.isMultiple(of: number1) && num.isMultiple(of: number2){
+//        commonMulti.append(num)
+//    }
+//    if commonMulti.count == 10 {
+//        break
+//    }
+//}
+//
+//print(commonMulti)
+//
+//
 
 
-// example for break
-let number1:Int = 4
-let number2:Int = 14
-
-var commonMulti = [Int]()
-
-for num in 1...100_000
+// pyramid using for loop
+for i in 1...5
 {
-    if num.isMultiple(of: number1) && num.isMultiple(of: number2){
-        commonMulti.append(num)
+    for j in 1...i
+    {
+        print("*",terminator: " ")
     }
-    if commonMulti.count == 10 {
-        break
-    }
+    print("\n")
 }
 
-print(commonMulti)
