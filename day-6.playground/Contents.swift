@@ -48,3 +48,18 @@ for i in 1...10 {
     print("=================\n")
 
 }
+
+
+
+
+
+
+var abg = [2,3,4,5,6,5]
+var a = 2
+var range:ClosedRange = 1...a
+
+print(abg[range])
+
+for n in 1... {
+    print(n)
+}
