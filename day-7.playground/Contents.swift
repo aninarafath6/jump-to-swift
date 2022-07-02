@@ -76,6 +76,19 @@ func module2(){
     
     print(pythogores(base: 3, hight: 4))
     
+    
+    // Example for multiple data returning
+    func getUser() -> [String]{
+        ["anin","arafath"]
+    }
+    
+    let user1 = getUser()
+    print(user1)
+    
+    // example for swift tuple data type
+    let user = (firstName:"Anin Arafath",age:22)
+    print(user.firstName,user.age)
+    
 }
 
 module2()
