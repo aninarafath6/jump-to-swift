@@ -135,6 +135,7 @@ import Cocoa
 //
 
 
+
 // check point 3
 for i in 1...100 {
     if i.isMultiple(of: 5) && i.isMultiple(of: 3){
@@ -147,3 +148,4 @@ for i in 1...100 {
         print(i)
     }
 }
+    
