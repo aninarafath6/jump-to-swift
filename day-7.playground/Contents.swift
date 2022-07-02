@@ -57,15 +57,25 @@ func module2(){
     
     // problem "are letters identical "
     
-    func areLetterIdentical(string1:String, string2:String){
-        if(string1.sorted() == string2.sorted()){
-            print("\(string1) and \(string2) are identical strings")
-        }else{
-            print("this string are not identical")
-        }
+    func areLetterIdentical(string1:String, string2:String) -> Bool{
+        // if function body contains only one line of code , then we can avoid the return keyword , swit alredy return that line
+         string1.sorted() == string2.sorted()
+        
+        //
     }
     
-    areLetterIdentical(string1: "abc", string2: "cba")
+    print(areLetterIdentical(string1: "abc", string2: "cba"))
+    
+    // pythogores
+    func pythogores (base:Double , hight: Double) -> Double {
+        
+        let hypotinues:Double = pow(base, 2) + pow(hight,2)
+        return sqrt(hypotinues)
+        
+    }
+    
+    print(pythogores(base: 3, hight: 4))
+    
 }
 
 module2()
