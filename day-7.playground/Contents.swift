@@ -89,6 +89,36 @@ func module2(){
     let user = (firstName:"Anin Arafath",age:22)
     print(user.firstName,user.age)
     
+    // get employ
+    func getEmploy() -> (firstName:String,age:Int) {
+        ("ansin",28)
+    }
+    
+    let (firstName,_) = getEmploy()
+    print(firstName)
+    
+    // labaling for parameters
+    func isUpper(stirng:String) -> Bool {
+        stirng == stirng.uppercased()
+    }
+    
+    print(isUpper(stirng: "anin"))
+    
+    
+    // underscore using with argument
+    func isUpper1 (_ string:String) ->Bool {
+        string == string.uppercased()
+    }
+    
+    print(isUpper1("ANIN"))
+    
+    
+    // example for internal and external different argument name
+    func isUpper2 (string str:String) -> Bool{
+        str.uppercased() == str
+    }
+    print(isUpper2(string:"ssd"),"sssssss")
+    
 }
 
 module2()
