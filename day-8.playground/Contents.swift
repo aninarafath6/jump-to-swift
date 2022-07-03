@@ -43,17 +43,21 @@ func module2() {
    
     
     do {
-        let string = "1234"
+        let string = "1"
         let st = try checkPass(string)
         print(st)
+        print(type(of: st))
 
-    }catch PasswordError.short{
+    }
+    catch PasswordError.short{
         print("password must be atleast 5 ")
     } catch PasswordError.obvious {
         print("it's not allowd , not safe")
     }catch {
-        print("something went wrong")
+        print("error: \(error.localizedDescription)")
     }
+    
+    
     
 }
 
