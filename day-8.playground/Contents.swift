@@ -16,4 +16,45 @@ func module1() {
 }
 
 
-module1()
+//module1()
+
+func module2() {
+    // error handle
+    enum PasswordError :Error{
+        case short
+        case obvious
+    }
+    
+    func checkPass(_ pass:String) throws -> String {
+        if pass.count < 5 {
+            throw PasswordError.short
+        }else if pass  == "12345"
+        {
+            throw PasswordError.obvious
+        }else if pass.count < 8 {
+            return("okay...")
+        }else if pass.count < 10 {
+            return("goood...")
+        }
+        else {
+            return("Excellent...")
+        }
+    }
+   
+    
+    do {
+        let string = "1234"
+        let st = try checkPass(string)
+        print(st)
+
+    }catch PasswordError.short{
+        print("password must be atleast 5 ")
+    } catch PasswordError.obvious {
+        print("it's not allowd , not safe")
+    }catch {
+        print("something went wrong")
+    }
+    
+}
+
+ module2()
