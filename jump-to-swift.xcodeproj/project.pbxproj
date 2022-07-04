@@ -14,6 +14,7 @@
 		73119ACC286DC5AF003A662D /* day-4.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "day-4.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		73119ACE286DEE90003A662D /* day-5.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "day-5.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7350764B28716E280038B4DC /* day-8.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "day-8.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7350764C28735D160038B4DC /* day-9.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "day-9.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		73618BAA286E2976000B3665 /* day-6.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "day-6.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -21,6 +22,7 @@
 		73119AC2286DB1C1003A662D = {
 			isa = PBXGroup;
 			children = (
+				7350764C28735D160038B4DC /* day-9.playground */,
 				7350764B28716E280038B4DC /* day-8.playground */,
 				7301D0012870A63D00A123B9 /* day-7.playground */,
 				73618BAA286E2976000B3665 /* day-6.playground */,
