@@ -61,4 +61,35 @@ func module2() {
     
 }
 
- module2()
+// module2()
+
+// check piont 4
+enum SqrtError:Error {
+    case outOfBoutnds
+    case noRoot
+}
+
+func checkPoint4 (_ number:Int) throws  -> Int{
+    
+    if number > 10_000 || number < 1 {
+        throw SqrtError.outOfBoutnds
+    }
+    
+    for i in 1...100 {
+        if i*i == number {
+            return i
+        }
+    }
+    throw SqrtError.noRoot
+}
+
+do {
+    let asddf:Int =  try checkPoint4(64)
+    print(asddf)
+} catch SqrtError.outOfBoutnds{
+    print("out of bounds")
+} catch SqrtError.noRoot {
+    print(" no root found")
+} catch {
+    print("error found")
+}
