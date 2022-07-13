@@ -10,6 +10,21 @@ func module1 () {
     let anin = sayHi
     
     anin()
+    
+    
+    let greet = {
+        print("greeeeeeetsssss......")
+    }
+    
+    greet();
+    
+    
+    let sayHello = {(name:String) -> String in
+        
+        ("hello \(name)")
+    }
+    
+   print( sayHello("anin"))
 }
 
 module1()
