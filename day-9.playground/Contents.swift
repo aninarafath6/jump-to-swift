@@ -7,7 +7,7 @@ func module1 () {
         print("hi man!!")
     }
     
-    let anin = sayHi
+    let anin: ()-> Void = sayHi
     
     anin()
     
