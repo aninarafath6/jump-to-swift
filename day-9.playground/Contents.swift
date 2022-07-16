@@ -27,4 +27,9 @@ func module1 () {
    print( sayHello("anin"))
 }
 
-module1()
+//module1()
+
+func module2 () {
+    
+    // module 2
+}
